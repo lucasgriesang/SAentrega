@@ -1,0 +1,9 @@
+cria um banco chamado SA (MAIUSCULO PO)
+
+Cria um Usuario local com todos os privilégios e senha 12345
+
+executa no terminal dentro da pasta API-SA-MAIN o comando npm i
+
+executa node .\create-table.js
+
+depois só rodar npm run dev

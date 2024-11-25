@@ -1,0 +1,291 @@
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: blue;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+@media (prefers-color-scheme: light) {}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #FFDE59;
+}
+
+.App {
+  color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.auth-container {
+  border: 1px solid #FFDE59;
+  padding: 35px;
+  border-radius: 30px;
+  width: 100%;
+  background-color: #FFDE59;
+  margin-top: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+form button {
+  padding: 10px;
+  background-color: #2BC7D9;
+  border: none;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+form button:hover {
+  background-color: #2BC7D9;
+  width: 155px;
+  height: 55px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* css do pagina pagina caixa amarela */
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #2BC7D9;
+  border-radius: 8px;
+  border: 1px solid #FFDE59;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  background-color: #FFDE59;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input-group input {
+  width: 90%;
+  padding: 8px;
+  border: 1px solid #2BC7D9;
+  border-radius: 4px;
+}
+
+.contato {
+  font-size: 11px;
+}
+
+/* ;-; meu deus */
+.sair {
+  font-size: 30px;
+}
+
+.but {
+  background-color: #2BC7D9;
+  width: 90%;
+  height: 50px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 5px;
+  font-size: 20px;
+  font-family: inherit;
+  border-color: black;
+  margin-top: 20px;
+}
+
+.erro {
+  font-size: 20px; 
+}
+
+img {
+  border-radius: 5%;
+}
+
+p {
+  font-size: 25px;
+}
+
+label {
+  font-size: 30px;
+}
+
+input {
+  border-radius: 30px;
+}
+
+.titulos {
+  font-size: 50px;
+  margin-top: -30px;
+}
+
+.butcase {
+  background-color: #FFDE59;
+  border-radius: 10px;
+  font-size: 17px;
+  margin-right: 40px; 
+  width: 170px;
+  height: 55px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.auth-container2 {
+  border: 1px solid #FFDE59;
+  padding: 35px;
+  border-radius: 30px;
+  width: 500px;
+  background-color: #FFDE59;
+}
+
+.tamanho {
+  margin-top: 500px;
+}
+
+.select {
+  width: 290px;
+  border-radius: 10px;
+  height: 35px; 
+  border-color: #2BC7D9;
+}
+
+th {
+  margin-bottom: 30px;
+}
+
+.thcss {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.tabela-clientes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.tabela-clientes table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.tabela-clientes th,
+.tabela-clientes td {
+  border: 1px solid #2BC7D9;
+  padding: 10px;
+  text-align: center;
+}
+
+.tabela-clientes th {
+  background-color: #FFDE59;
+}
+
+/* css do pagina pagina caixa amarela */
+.container2 {
+  display: flex;
+  flex-direction: column;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #2BC7D9;
+  border-radius: 8px;
+  border: 1px solid #FFDE59;
+  padding: 20px;
+  border-radius: 5px;
+  width: 400px;
+  background-color: #FFDE59;
+
+}
+.button23{
+  color: #007bff;
+}
